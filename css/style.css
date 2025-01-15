@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Reem+Kufi+Fun&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Reem Kufi Fun', sans-serif;
+}
+
+body{
+    background-color: #0a0a0a;
+    color: white;
+}
+
+h1{
+    font-size: 75px;
+    text-align: center;
+}
+
+input{
+    margin-bottom: 20px;
+    padding-left: 15px;
+    width: 450px;
+    height: 35px;
+    text-decoration: none;
+    border-radius: 7px;
+    border: 0;
+    font-size: 17px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.formtable{
+    background-color: #070707;
+    width: 550px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 7px;
+    box-shadow: 0px 0px 286px +10px rgba(255, 255, 255, 0.07);
+
+}
+
+label{
+    align-self: flex-start;
+    font-size: 15px;
+    margin-bottom: 5px;
+    padding-left: 43px;
+}
+
+input[type='submit'] {
+    background: #0caa26;
+    color: white;
+    font-size: 20px;
+    width: 460px;
+    border-radius: 7px;
+    border: none;
+    cursor: crosshair;
+    text-align: center;
+}
+
+.input:focus {
+    outline:none;
+}
