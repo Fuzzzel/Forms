@@ -64,8 +64,13 @@ input[type='submit'] {
     border: none;
     cursor: crosshair;
     text-align: center;
+    transition-duration: 1s;
 }
 
 .input:focus {
     outline:none;
+}
+
+.input2:hover{
+    scale: 1.05;
 }
